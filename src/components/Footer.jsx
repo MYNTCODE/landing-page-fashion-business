@@ -1,7 +1,7 @@
 import React from "react";
 
 function Footer() {
-  return <div>Footer</div>;
+  return <div className=" h-[20vh]">Footer contact</div>;
 }
 
 export default Footer;
