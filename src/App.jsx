@@ -1,7 +1,12 @@
 import "./App.css";
+import RouteForRender from "./pages/RouteForRender";
 
 function App() {
-  return <></>;
+  return (
+    <>
+      <RouteForRender />
+    </>
+  );
 }
 
 export default App;
