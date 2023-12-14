@@ -28,14 +28,16 @@ function HomePage() {
         handleBlogsClick={handleBlogsClick}
         handleContactClick={handleContactClick}
       />
-      <div ref={homeRef}>
-        <Header />
-      </div>
-      <div ref={blogsRef}>
-        <Blog />
-      </div>
-      <div ref={contactRef}>
-        <Footer />
+      <div className=" space-y-10">
+        <div ref={homeRef}>
+          <Header />
+        </div>
+        <div ref={blogsRef}>
+          <Blog />
+        </div>
+        <div ref={contactRef}>
+          <Footer />
+        </div>
       </div>
     </>
   );

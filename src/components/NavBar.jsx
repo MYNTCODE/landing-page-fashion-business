@@ -4,8 +4,8 @@ import { Link } from "react-router-dom";
 function NavBar({ handleHomeClick, handleBlogsClick, handleContactClick }) {
   return (
     <>
-      <nav className="navbar ">
-        <ul className=" flex justify-evenly gap-10">
+      <nav className="navbar">
+        <ul className=" flex justify-evenly gap-10 w-full px-[40%] py-[15px]  bg-black">
           <li onClick={handleHomeClick}>Home </li>
           <Link to={`/collection`}>
             <li>Collection</li>
