@@ -11,7 +11,9 @@ function Hero() {
         muted
       />
       <div className="text-hero absolute top-20 w-full h-[100%] flex-col justify-center items-center">
-        <h1 className=" font-bold text-[200%] lg:text-[200px] ">MYNT</h1>
+        <h1 className=" font-bold text-[200%] lg:text-[200px]" title="MYNT">
+          MYNT
+        </h1>
       </div>
     </div>
   );

@@ -25,7 +25,9 @@ function CollectionPage() {
         handleBlogsClick={handleBlogsClick}
         handleContactClick={handleContactClick}
       />
-      Collection
+      <div className="h-[100vh]">
+        <div></div>
+      </div>
       <div ref={contactRef}>
         <Footer />
       </div>
