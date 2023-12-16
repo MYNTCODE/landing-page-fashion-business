@@ -2,7 +2,7 @@ import React from "react";
 import hero from "../../assets/hero.mp4";
 function Hero() {
   return (
-    <div className=" h-[100vh] border ">
+    <div className=" h-[100vh]  ">
       <video
         className="h-[100%] w-[100%] object-cover"
         src={hero}
