@@ -2,6 +2,9 @@ import { useRef } from "react";
 import NavBar from "../components/NavBar";
 import { useNavigate } from "react-router-dom";
 import Footer from "../components/Footer";
+import Primary from "../components/collection/Primary";
+import Secondary from "../components/collection/Secondary";
+import CollectionMimart from "../components/collection/CollectionMimart";
 
 function CollectionPage() {
   const navigate = useNavigate();
@@ -19,14 +22,20 @@ function CollectionPage() {
   };
 
   return (
-    <div className=" h-[100vh]">
+    <div className=" h-full">
       <NavBar
         handleHomeClick={handleHomeClick}
         handleBlogsClick={handleBlogsClick}
         handleContactClick={handleContactClick}
       />
-      <div className="h-[100vh]">
-        <div></div>
+      <div className="h-full">
+        <Primary />
+      </div>
+      <div className="h-full">
+        <Secondary />
+      </div>
+      <div className="h-full pt-10 pb-20">
+        <CollectionMimart />
       </div>
       <div ref={contactRef}>
         <Footer />

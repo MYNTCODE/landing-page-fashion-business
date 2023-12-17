@@ -20,6 +20,12 @@ function Footer() {
           <div className="line  md:border-l md:h-[80px] md:w-[20px]"></div>
           <div className="detial-text-footer flex-col md:text-left space-y-1">
             <p>
+              Photo{" "}
+              <Link to={`https://unsplash.com/`}>
+                <span className=" font-bold">unsplash.com</span>
+              </Link>
+            </p>{" "}
+            <p>
               Designed by{" "}
               <Link to={`https://github.com/MYNTCODE`}>
                 <span className=" font-bold">MYNTCODE</span>
