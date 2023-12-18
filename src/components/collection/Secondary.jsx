@@ -1,5 +1,6 @@
 import React from "react";
 import example from "../../assets/example-collection.mp4";
+import "./Collections.css";
 
 function Secondary() {
   return (
@@ -14,7 +15,7 @@ function Secondary() {
             muted
           />
           <div className=" hidden md:block ">
-            <h1 className=" text-left">
+            <h1 className="slideDown text-left">
               {" "}
               Welcome to MYNT's latest collection - an embodiment of style,
               sophistication, and contemporary fashion. "Mimart" is a fusion of
