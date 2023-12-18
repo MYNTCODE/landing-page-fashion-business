@@ -10,15 +10,15 @@ function Footer() {
     <>
       <div className=" h-[full] border-t pb-8 lg:p-8">
         <div className="header-text-footer  md:text-[40px]"></div>
-        <div className="contact-detail md:flex justify-center items-center pt-3">
-          <div className="social-logo h-20 flex justify-center p-5 space-x-5">
-            <img src={email} />
-            <img src={facebook} />
-            <img src={instagram} />
-            <img src={youtube} />
+        <div className="contact-detail md:flex justify-center md:justify-center items-center pt-3">
+          <div className="social-logo h-20  md:w-[250px] flex justify-center p-5 space-x-5">
+            <img className="w-10" src={email} />
+            <img className="w-10" src={facebook} />
+            <img className="w-10" src={instagram} />
+            <img className="w-10" src={youtube} />
           </div>
-          <div className="line  md:border-l md:h-[80px] md:w-[20px]"></div>
-          <div className="detial-text-footer flex-col md:text-left space-y-1">
+          {/* <div className="line md:border-l md:h-[80px] md:w-[20px]"></div> */}
+          <div className="detial-text-footer  md:border-l md:pl-[20px] md:w-[250px] flex-col md:text-left space-y-1">
             <p>
               Photo{" "}
               <Link to={`https://unsplash.com/`}>
