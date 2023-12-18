@@ -6,14 +6,16 @@ function Secondary() {
   return (
     <>
       <div className="Secondary h-full flex-col justify-center items-center md:px-[10%] ">
-        <div className="video flex justify-center items-center gap-10">
-          <video
-            className=" object-cover md:w-[50%]"
-            src={example}
-            autoPlay
-            loop
-            muted
-          />
+        <div className="video  flex justify-center  gap-10">
+          <div className=" md:w-[300%] lg:w-[100%] md:h-[100%] lg:h-[250px]">
+            <video
+              className="object-cover "
+              src={example}
+              autoPlay
+              loop
+              muted
+            />
+          </div>
           <div className=" hidden md:block ">
             <h1 className="slideDown text-left">
               {" "}
