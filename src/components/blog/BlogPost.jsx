@@ -1,12 +1,13 @@
-import React from "react";
-import fashionBlog from "../../data/fashionBlog.json";
+import React from 'react';
+
+import { fashionBlogData } from '../../data/fashionBlog';
 
 function BlogPost() {
   return (
     <>
       <div className="Blog-Post">
         <div className="Blog-container space-y-10 mt-10 mb-20">
-          {fashionBlog.map((blog, index) => (
+          {fashionBlogData.map((blog, index) => (
             <div className="blog " key={index}>
               <div className="h-[700px] md:h-full md:flex justify-center md:px-[10%] text-center md:gap-10 ">
                 <img
